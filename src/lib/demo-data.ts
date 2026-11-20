@@ -63,7 +63,7 @@ export const emas = (cs: Candle[]) => {
 export interface StrikeRow { strike: number; callOI: number; putOI: number; callChg: number; putChg: number }
 export function optionChain(sym: string, expiry: string, seed: number, count: number) {
   const ix = INDICES.find((i) => i.sym === sym) ?? INDICES[0];
-  const spot = indexQuotes(seed).find((q) => q.sym === sym)!.ltp;
+   const spot = indexQuotes(seed).find((q) => q.sym === ix.sym)?.ltp ?? ix.base;
   const r = rng(seed + hash(sym + expiry));
   const atm = Math.round(spot / ix.step) * ix.step;
   const half = Math.floor(count / 2);
@@ -136,28 +136,34 @@ export function liquidity(sym: string, tf: TF, seed: number) {
   const highs: number[] = [], lows: number[] = [];
   for (let i = 2; i < cs.length - 2; i++) {
     const w = cs.slice(i - 2, i + 3);
-    if (cs[i].h === Math.max(...w.map((c) => c.h))) { highs.push(i); marks.push({ i, price: cs[i].h, kind: "Swing High" }); }
-    if (cs[i].l === Math.min(...w.map((c) => c.l))) { lows.push(i); marks.push({ i, price: cs[i].l, kind: "Swing Low" }); }
+     const bar = cs[i];
+     if (!bar) continue;
+     if (bar.h === Math.max(...w.map((c) => c.h))) { highs.push(i); marks.push({ i, price: bar.h, kind: "Swing High" }); }
+     if (bar.l === Math.min(...w.map((c) => c.l))) { lows.push(i); marks.push({ i, price: bar.l, kind: "Swing Low" }); }
   }
-  const tol = cs[0].c * 0.0012;
-  for (let a = 1; a < highs.length; a++) if (Math.abs(cs[highs[a]].h - cs[highs[a - 1]].h) < tol) marks.push({ i: highs[a], price: cs[highs[a]].h, kind: "Equal Highs" });
-  for (let a = 1; a < lows.length; a++) if (Math.abs(cs[lows[a]].l - cs[lows[a - 1]].l) < tol) marks.push({ i: lows[a], price: cs[lows[a]].l, kind: "Equal Lows" });
+   const tol = (cs[0]?.c ?? 0) * 0.0012;
+   const equal = (indices: number[], side: "h" | "l", kind: "Equal Highs" | "Equal Lows") => {
+     indices.forEach((i, a) => { const prior = indices[a - 1]; const bar = cs[i]; const prev = prior === undefined ? undefined : cs[prior]; if (bar && prev && Math.abs(bar[side] - prev[side]) < tol) marks.push({ i, price: bar[side], kind }); });
+   };
+   equal(highs, "h", "Equal Highs"); equal(lows, "l", "Equal Lows");
   // sweeps / BOS: compare later closes to prior swing levels
   for (const hi of highs) {
     for (let j = hi + 1; j < Math.min(cs.length, hi + 15); j++) {
-      if (cs[j].h > cs[hi].h && cs[j].c < cs[hi].h) { marks.push({ i: j, price: cs[j].h, kind: "Sweep" }); break; }
-      if (cs[j].c > cs[hi].h) { marks.push({ i: j, price: cs[j].c, kind: "BOS" }); break; }
+       const bar = cs[j], pivot = cs[hi]; if (!bar || !pivot) continue;
+       if (bar.h > pivot.h && bar.c < pivot.h) { marks.push({ i: j, price: bar.h, kind: "Sweep" }); break; }
+       if (bar.c > pivot.h) { marks.push({ i: j, price: bar.c, kind: "BOS" }); break; }
     }
   }
   for (const lo of lows) {
     for (let j = lo + 1; j < Math.min(cs.length, lo + 15); j++) {
-      if (cs[j].l < cs[lo].l && cs[j].c > cs[lo].l) { marks.push({ i: j, price: cs[j].l, kind: "Reclaim" }); break; }
-      if (cs[j].c < cs[lo].l) { marks.push({ i: j, price: cs[j].c, kind: "CHOCH" }); break; }
+       const bar = cs[j], pivot = cs[lo]; if (!bar || !pivot) continue;
+       if (bar.l < pivot.l && bar.c > pivot.l) { marks.push({ i: j, price: bar.l, kind: "Reclaim" }); break; }
+       if (bar.c < pivot.l) { marks.push({ i: j, price: bar.c, kind: "CHOCH" }); break; }
     }
   }
   const pools = [
-    ...highs.slice(-3).map((i) => ({ side: "Buy-side", price: cs[i].h })),
-    ...lows.slice(-3).map((i) => ({ side: "Sell-side", price: cs[i].l })),
+     ...highs.slice(-3).flatMap((i) => cs[i] ? [{ side: "Buy-side", price: cs[i]?.h ?? 0 }] : []),
+     ...lows.slice(-3).flatMap((i) => cs[i] ? [{ side: "Sell-side", price: cs[i]?.l ?? 0 }] : []),
   ];
   return { cs, marks, pools };
 }
@@ -167,8 +173,9 @@ export function tradeCandidates(seed: number) {
   const q = indexQuotes(seed);
   return INDICES.map((ix, k) => {
     const r = rng(seed + hash("tc" + ix.sym));
-    const bull = q[k].chg >= 0;
-    const strike = ch[k].atm + (bull ? ix.step : -ix.step);
+     const chain = ch[k];
+     const bull = (q[k]?.chg ?? 0) >= 0;
+     const strike = (chain?.atm ?? ix.base) + (bull ? ix.step : -ix.step);
     const premium = Math.round((40 + r() * 140) * 10) / 10;
     const stop = Math.round(premium * 0.78 * 10) / 10;
     const risk = premium - stop;
@@ -176,7 +183,7 @@ export function tradeCandidates(seed: number) {
       id: ix.sym, underlying: ix.sym, type: bull ? "CE" : "PE", strike, expiry: EXPIRIES[0], premium, entry: premium, stop,
       t1: Math.round((premium + risk * 1.5) * 10) / 10, t2: Math.round((premium + risk * 2.5) * 10) / 10, rr: "1 : 1.5 / 2.5",
       rationale: bull ? "Price above EMA 5/9/13 stack, put writers adding near ATM (demo)." : "Price below EMA 5/9/13 stack, call writers adding near ATM (demo).",
-      invalidation: `Underlying ${bull ? "closes below" : "closes above"} ${(bull ? ch[k].maxPut.strike : ch[k].maxCall.strike).toLocaleString("en-IN")} on 15m`,
+       invalidation: `Underlying ${bull ? "closes below" : "closes above"} ${(bull ? chain?.maxPut.strike ?? ix.base : chain?.maxCall.strike ?? ix.base).toLocaleString("en-IN")} on 15m`,
       demoLot: { "NIFTY 50": 75, BANKNIFTY: 30, FINNIFTY: 65, MIDCPNIFTY: 120 }[ix.sym],
     };
   });

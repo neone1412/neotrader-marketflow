@@ -111,8 +111,8 @@ export function OIFlow({ seed }: { seed: number }) {
         <Panel title="Flow stats">
           <div className="grid grid-cols-2 gap-2">
             <Stat label="OI speed / min" value={fmtL(speed)} tone="violet" />
-            <Stat label="Fastest Call add" value={`${fastC.strike} CE`} tone="bear" />
-            <Stat label="Fastest Put add" value={`${fastP.strike} PE`} tone="bull" />
+             <Stat label="Fastest Call add" value={fastC ? `${fastC.strike} CE` : "—"} tone="bear" />
+             <Stat label="Fastest Put add" value={fastP ? `${fastP.strike} PE` : "—"} tone="bull" />
             <Stat label="Hottest" value={hottest.map((h) => h.strike).join(", ")} tone="warn" />
           </div>
           <div className="mt-3 text-[11px] text-muted-foreground">Biggest reductions</div>

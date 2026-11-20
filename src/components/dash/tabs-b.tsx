@@ -106,14 +106,14 @@ export function LiquidityMap({ seed }: { seed: number }) {
 
 export function TradeAssistant({ seed }: { seed: number }) {
   const cands = tradeCandidates(seed);
-  const [sel, setSel] = useState(cands[0].id);
+   const [sel, setSel] = useState(cands[0]?.id ?? "");
   const c = cands.find((x) => x.id === sel) ?? cands[0];
   const [capital, setCapital] = useState(7000);
   const [riskPct, setRiskPct] = useState(1);
-  const [entry, setEntry] = useState(c.entry);
-  const [stop, setStop] = useState(c.stop);
-  const [lot, setLot] = useState(c.demoLot);
-  const pick = (id: string) => { const n = cands.find((x) => x.id === id)!; setSel(id); setEntry(n.entry); setStop(n.stop); setLot(n.demoLot); };
+   const [entry, setEntry] = useState(c?.entry ?? 100);
+   const [stop, setStop] = useState(c?.stop ?? 80);
+   const [lot, setLot] = useState(c?.demoLot ?? 75);
+   const pick = (id: string) => { const n = cands.find((x) => x.id === id); if (!n) return; setSel(id); setEntry(n.entry); setStop(n.stop); setLot(n.demoLot); };
   const r = computeLots({ capital, riskPct, entry, stop, lotSize: lot });
   const Num = ({ label, v, set, step = 1 }: { label: string; v: number; set: (n: number) => void; step?: number }) => (
     <label className="text-[10px] uppercase tracking-wider text-muted-foreground">{label}

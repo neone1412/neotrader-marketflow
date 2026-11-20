@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 
 export function Panel({ title, right, children, className }: { title?: ReactNode; right?: ReactNode; children: ReactNode; className?: string }) {
   return (
@@ -19,7 +20,7 @@ export function Stat({ label, value, tone }: { label: string; value: ReactNode; 
   return (
     <div className="rounded-md border border-border bg-muted/40 px-3 py-2">
       <div className="text-[10px] uppercase tracking-wider text-muted-foreground">{label}</div>
-      <div className={cn("font-mono text-base font-semibold", tone && `text-${tone}`)}>{value}</div>
+      <div className={cn("font-mono text-base font-semibold", tone && { bull: "text-bull", bear: "text-bear", warn: "text-warn", info: "text-info", violet: "text-violet" }[tone])}>{value}</div>
     </div>
   );
 }
@@ -28,7 +29,7 @@ export function Seg<T extends string | number>({ options, value, onChange, label
   return (
     <div className="inline-flex rounded-md border border-border bg-muted/40 p-0.5">
       {options.map((o) => (
-        <button
+        <Button variant="ghost" size="sm"
           key={String(o)}
           onClick={() => onChange(o)}
           className={cn(
@@ -37,7 +38,7 @@ export function Seg<T extends string | number>({ options, value, onChange, label
           )}
         >
           {label ? label(o) : String(o)}
-        </button>
+        </Button>
       ))}
     </div>
   );

@@ -11,7 +11,7 @@ export function computeLots({ capital, riskPct, entry, stop, lotSize }: LotInput
   const perUnitRisk = entry - stop;
   const perLotRisk = perUnitRisk * lotSize;
   const perLotCost = entry * lotSize;
-  const valid = perUnitRisk > 0 && lotSize > 0 && entry > 0;
+  const valid = [capital, riskPct, entry, stop, lotSize].every(Number.isFinite) && capital > 0 && riskPct > 0 && riskPct <= 100 && stop >= 0 && perUnitRisk > 0 && Number.isInteger(lotSize) && lotSize > 0 && entry > 0;
   const lotsByRisk = valid ? Math.floor(riskBudget / perLotRisk) : 0;
   const lotsByCapital = valid ? Math.floor(capital / perLotCost) : 0;
   const lots = Math.max(0, Math.min(lotsByRisk, lotsByCapital));
@@ -32,7 +32,7 @@ export function computeLots({ capital, riskPct, entry, stop, lotSize }: LotInput
 export function ema(values: number[], n: number) {
   const k = 2 / (n + 1);
   const out: number[] = [];
-  values.forEach((v, i) => out.push(i === 0 ? v : v * k + out[i - 1] * (1 - k)));
+  values.forEach((v, i) => out.push(i === 0 ? v : v * k + (out[i - 1] ?? v) * (1 - k)));
   return out;
 }
 

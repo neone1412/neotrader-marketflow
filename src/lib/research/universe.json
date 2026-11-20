@@ -1,0 +1,1791 @@
+{
+  "source": "https://api.kite.trade/instruments/NFO",
+  "capturedAt": "2026-11-20T10:36:15Z",
+  "scope": "Public NFO instruments snapshot; membership and lot sizes must be revalidated for each expiry. No quotes or broker session.",
+  "instruments": [
+    {
+      "symbol": "360ONE",
+      "kind": "stock",
+      "lotSize": 500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15737346
+    },
+    {
+      "symbol": "ABB",
+      "kind": "stock",
+      "lotSize": 125,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15737602
+    },
+    {
+      "symbol": "ABCAPITAL",
+      "kind": "stock",
+      "lotSize": 1550,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15737858
+    },
+    {
+      "symbol": "ADANIENSOL",
+      "kind": "stock",
+      "lotSize": 675,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15738114
+    },
+    {
+      "symbol": "ADANIENT",
+      "kind": "stock",
+      "lotSize": 309,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15738370
+    },
+    {
+      "symbol": "ADANIGREEN",
+      "kind": "stock",
+      "lotSize": 600,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15738626
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "kind": "stock",
+      "lotSize": 475,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15738882
+    },
+    {
+      "symbol": "ADANIPOWER",
+      "kind": "stock",
+      "lotSize": 3550,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15739138
+    },
+    {
+      "symbol": "ALKEM",
+      "kind": "stock",
+      "lotSize": 125,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15739394
+    },
+    {
+      "symbol": "AMBER",
+      "kind": "stock",
+      "lotSize": 100,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15739650
+    },
+    {
+      "symbol": "AMBUJACEM",
+      "kind": "stock",
+      "lotSize": 1200,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15739906
+    },
+    {
+      "symbol": "ANANDRATHI",
+      "kind": "stock",
+      "lotSize": 250,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15075842
+    },
+    {
+      "symbol": "ANGELONE",
+      "kind": "stock",
+      "lotSize": 2500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15740162
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "kind": "stock",
+      "lotSize": 350,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15740418
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "kind": "stock",
+      "lotSize": 125,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15740674
+    },
+    {
+      "symbol": "ASHOKLEY",
+      "kind": "stock",
+      "lotSize": 5000,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15740930
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "kind": "stock",
+      "lotSize": 250,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15741186
+    },
+    {
+      "symbol": "ASTRAL",
+      "kind": "stock",
+      "lotSize": 425,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15741442
+    },
+    {
+      "symbol": "ATHERENERG",
+      "kind": "stock",
+      "lotSize": 375,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15743234
+    },
+    {
+      "symbol": "AUBANK",
+      "kind": "stock",
+      "lotSize": 500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15744514
+    },
+    {
+      "symbol": "AUROPHARMA",
+      "kind": "stock",
+      "lotSize": 550,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15744770
+    },
+    {
+      "symbol": "AXISBANK",
+      "kind": "stock",
+      "lotSize": 625,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15745026
+    },
+    {
+      "symbol": "BAJAJ-AUTO",
+      "kind": "stock",
+      "lotSize": 75,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15745282
+    },
+    {
+      "symbol": "BAJAJFINSV",
+      "kind": "stock",
+      "lotSize": 300,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15745538
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "kind": "stock",
+      "lotSize": 750,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15745794
+    },
+    {
+      "symbol": "BANDHANBNK",
+      "kind": "stock",
+      "lotSize": 3600,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15746050
+    },
+    {
+      "symbol": "BANKBARODA",
+      "kind": "stock",
+      "lotSize": 2925,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15746306
+    },
+    {
+      "symbol": "BANKINDIA",
+      "kind": "stock",
+      "lotSize": 5200,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15746562
+    },
+    {
+      "symbol": "BANKNIFTY",
+      "kind": "index",
+      "lotSize": 30,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15735298
+    },
+    {
+      "symbol": "BDL",
+      "kind": "stock",
+      "lotSize": 425,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15746818
+    },
+    {
+      "symbol": "BEL",
+      "kind": "stock",
+      "lotSize": 1425,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15747074
+    },
+    {
+      "symbol": "BHARATFORG",
+      "kind": "stock",
+      "lotSize": 500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15747330
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "kind": "stock",
+      "lotSize": 475,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15747842
+    },
+    {
+      "symbol": "BHEL",
+      "kind": "stock",
+      "lotSize": 2625,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15748098
+    },
+    {
+      "symbol": "BIOCON",
+      "kind": "stock",
+      "lotSize": 2500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15749122
+    },
+    {
+      "symbol": "BLUESTARCO",
+      "kind": "stock",
+      "lotSize": 325,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15749378
+    },
+    {
+      "symbol": "BOSCHLTD",
+      "kind": "stock",
+      "lotSize": 25,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15749634
+    },
+    {
+      "symbol": "BPCL",
+      "kind": "stock",
+      "lotSize": 1975,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15749890
+    },
+    {
+      "symbol": "BRITANNIA",
+      "kind": "stock",
+      "lotSize": 125,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15750146
+    },
+    {
+      "symbol": "BSE",
+      "kind": "stock",
+      "lotSize": 200,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15750402
+    },
+    {
+      "symbol": "CAMS",
+      "kind": "stock",
+      "lotSize": 825,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15750658
+    },
+    {
+      "symbol": "CANBK",
+      "kind": "stock",
+      "lotSize": 6750,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15750914
+    },
+    {
+      "symbol": "CDSL",
+      "kind": "stock",
+      "lotSize": 475,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15751170
+    },
+    {
+      "symbol": "CGPOWER",
+      "kind": "stock",
+      "lotSize": 850,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15753474
+    },
+    {
+      "symbol": "CHOLAFIN",
+      "kind": "stock",
+      "lotSize": 625,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15753730
+    },
+    {
+      "symbol": "CIPLA",
+      "kind": "stock",
+      "lotSize": 425,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15753986
+    },
+    {
+      "symbol": "COALINDIA",
+      "kind": "stock",
+      "lotSize": 1350,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15754242
+    },
+    {
+      "symbol": "COCHINSHIP",
+      "kind": "stock",
+      "lotSize": 400,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15754498
+    },
+    {
+      "symbol": "COFORGE",
+      "kind": "stock",
+      "lotSize": 475,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15754754
+    },
+    {
+      "symbol": "COLPAL",
+      "kind": "stock",
+      "lotSize": 275,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15755010
+    },
+    {
+      "symbol": "CONCOR",
+      "kind": "stock",
+      "lotSize": 1250,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15755266
+    },
+    {
+      "symbol": "COROMANDEL",
+      "kind": "stock",
+      "lotSize": 300,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 14057730
+    },
+    {
+      "symbol": "CROMPTON",
+      "kind": "stock",
+      "lotSize": 2150,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15755522
+    },
+    {
+      "symbol": "CUB",
+      "kind": "stock",
+      "lotSize": 2325,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 14059266
+    },
+    {
+      "symbol": "CUMMINSIND",
+      "kind": "stock",
+      "lotSize": 100,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15755778
+    },
+    {
+      "symbol": "DABUR",
+      "kind": "stock",
+      "lotSize": 1250,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15758082
+    },
+    {
+      "symbol": "DATAPATTNS",
+      "kind": "stock",
+      "lotSize": 125,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 14060546
+    },
+    {
+      "symbol": "DELHIVERY",
+      "kind": "stock",
+      "lotSize": 2075,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15758338
+    },
+    {
+      "symbol": "DIVISLAB",
+      "kind": "stock",
+      "lotSize": 100,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15758850
+    },
+    {
+      "symbol": "DIXON",
+      "kind": "stock",
+      "lotSize": 50,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15759362
+    },
+    {
+      "symbol": "DLF",
+      "kind": "stock",
+      "lotSize": 950,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15759618
+    },
+    {
+      "symbol": "DMART",
+      "kind": "stock",
+      "lotSize": 150,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15759874
+    },
+    {
+      "symbol": "DRREDDY",
+      "kind": "stock",
+      "lotSize": 625,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15760130
+    },
+    {
+      "symbol": "EICHERMOT",
+      "kind": "stock",
+      "lotSize": 100,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15760386
+    },
+    {
+      "symbol": "ENRIN",
+      "kind": "stock",
+      "lotSize": 175,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15092994
+    },
+    {
+      "symbol": "ETERNAL",
+      "kind": "stock",
+      "lotSize": 2425,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15760642
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "kind": "stock",
+      "lotSize": 2500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15760898
+    },
+    {
+      "symbol": "FINNIFTY",
+      "kind": "index",
+      "lotSize": 60,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15736066
+    },
+    {
+      "symbol": "FORCEMOT",
+      "kind": "stock",
+      "lotSize": 25,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15761154
+    },
+    {
+      "symbol": "FORTIS",
+      "kind": "stock",
+      "lotSize": 775,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15761410
+    },
+    {
+      "symbol": "GAIL",
+      "kind": "stock",
+      "lotSize": 3550,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15761666
+    },
+    {
+      "symbol": "GLENMARK",
+      "kind": "stock",
+      "lotSize": 375,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15761922
+    },
+    {
+      "symbol": "GMRAIRPORT",
+      "kind": "stock",
+      "lotSize": 6975,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15762178
+    },
+    {
+      "symbol": "GODFRYPHLP",
+      "kind": "stock",
+      "lotSize": 275,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15762434
+    },
+    {
+      "symbol": "GODREJCP",
+      "kind": "stock",
+      "lotSize": 500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15762690
+    },
+    {
+      "symbol": "GODREJPROP",
+      "kind": "stock",
+      "lotSize": 325,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15762946
+    },
+    {
+      "symbol": "GRASIM",
+      "kind": "stock",
+      "lotSize": 250,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15763202
+    },
+    {
+      "symbol": "GVT&D",
+      "kind": "stock",
+      "lotSize": 125,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15763458
+    },
+    {
+      "symbol": "HAL",
+      "kind": "stock",
+      "lotSize": 150,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15763970
+    },
+    {
+      "symbol": "HAVELLS",
+      "kind": "stock",
+      "lotSize": 500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15764226
+    },
+    {
+      "symbol": "HCLTECH",
+      "kind": "stock",
+      "lotSize": 400,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15764482
+    },
+    {
+      "symbol": "HDFCAMC",
+      "kind": "stock",
+      "lotSize": 300,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15764738
+    },
+    {
+      "symbol": "HDFCBANK",
+      "kind": "stock",
+      "lotSize": 650,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15764994
+    },
+    {
+      "symbol": "HDFCLIFE",
+      "kind": "stock",
+      "lotSize": 1100,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15765250
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "kind": "stock",
+      "lotSize": 150,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15765506
+    },
+    {
+      "symbol": "HINDALCO",
+      "kind": "stock",
+      "lotSize": 700,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15765762
+    },
+    {
+      "symbol": "HINDPETRO",
+      "kind": "stock",
+      "lotSize": 2025,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15767042
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "kind": "stock",
+      "lotSize": 300,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15767298
+    },
+    {
+      "symbol": "HINDZINC",
+      "kind": "stock",
+      "lotSize": 1225,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15767554
+    },
+    {
+      "symbol": "HYUNDAI",
+      "kind": "stock",
+      "lotSize": 275,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15768066
+    },
+    {
+      "symbol": "ICICIBANK",
+      "kind": "stock",
+      "lotSize": 700,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15768322
+    },
+    {
+      "symbol": "ICICIGI",
+      "kind": "stock",
+      "lotSize": 325,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15768578
+    },
+    {
+      "symbol": "ICICILIFE",
+      "kind": "stock",
+      "lotSize": 925,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15768834
+    },
+    {
+      "symbol": "IDEA",
+      "kind": "stock",
+      "lotSize": 71475,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15769090
+    },
+    {
+      "symbol": "IDFCFIRSTB",
+      "kind": "stock",
+      "lotSize": 9275,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15769346
+    },
+    {
+      "symbol": "IEX",
+      "kind": "stock",
+      "lotSize": 4350,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15769602
+    },
+    {
+      "symbol": "INDHOTEL",
+      "kind": "stock",
+      "lotSize": 1000,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15769858
+    },
+    {
+      "symbol": "INDIANB",
+      "kind": "stock",
+      "lotSize": 1000,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15770114
+    },
+    {
+      "symbol": "INDIGO",
+      "kind": "stock",
+      "lotSize": 150,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15770370
+    },
+    {
+      "symbol": "INDUSINDBK",
+      "kind": "stock",
+      "lotSize": 700,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15771138
+    },
+    {
+      "symbol": "INDUSTOWER",
+      "kind": "stock",
+      "lotSize": 1700,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15771394
+    },
+    {
+      "symbol": "INFY",
+      "kind": "stock",
+      "lotSize": 400,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15771650
+    },
+    {
+      "symbol": "INOXWIND",
+      "kind": "stock",
+      "lotSize": 6400,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15772418
+    },
+    {
+      "symbol": "IOC",
+      "kind": "stock",
+      "lotSize": 4875,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15772674
+    },
+    {
+      "symbol": "IREDA",
+      "kind": "stock",
+      "lotSize": 4525,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15772930
+    },
+    {
+      "symbol": "IRFC",
+      "kind": "stock",
+      "lotSize": 5425,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15773186
+    },
+    {
+      "symbol": "ITC",
+      "kind": "stock",
+      "lotSize": 1725,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15773442
+    },
+    {
+      "symbol": "JINDALSTEL",
+      "kind": "stock",
+      "lotSize": 625,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15773698
+    },
+    {
+      "symbol": "JIOFIN",
+      "kind": "stock",
+      "lotSize": 2350,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15773954
+    },
+    {
+      "symbol": "JSWENERGY",
+      "kind": "stock",
+      "lotSize": 1075,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15774210
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "kind": "stock",
+      "lotSize": 675,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15774466
+    },
+    {
+      "symbol": "JUBLFOOD",
+      "kind": "stock",
+      "lotSize": 1250,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15774722
+    },
+    {
+      "symbol": "KALYANKJIL",
+      "kind": "stock",
+      "lotSize": 1350,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15774978
+    },
+    {
+      "symbol": "KARURVYSYA",
+      "kind": "stock",
+      "lotSize": 1550,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 14090242
+    },
+    {
+      "symbol": "KAYNES",
+      "kind": "stock",
+      "lotSize": 150,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15775746
+    },
+    {
+      "symbol": "KEI",
+      "kind": "stock",
+      "lotSize": 175,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15776002
+    },
+    {
+      "symbol": "KFINTECH",
+      "kind": "stock",
+      "lotSize": 575,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15776258
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "kind": "stock",
+      "lotSize": 2000,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15776514
+    },
+    {
+      "symbol": "KPITTECH",
+      "kind": "stock",
+      "lotSize": 775,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15776770
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "kind": "stock",
+      "lotSize": 425,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15777026
+    },
+    {
+      "symbol": "LICHSGFIN",
+      "kind": "stock",
+      "lotSize": 1000,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15777282
+    },
+    {
+      "symbol": "LICI",
+      "kind": "stock",
+      "lotSize": 1400,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15777538
+    },
+    {
+      "symbol": "LODHA",
+      "kind": "stock",
+      "lotSize": 625,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15777794
+    },
+    {
+      "symbol": "LT",
+      "kind": "stock",
+      "lotSize": 175,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15778050
+    },
+    {
+      "symbol": "LTF",
+      "kind": "stock",
+      "lotSize": 2250,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15778306
+    },
+    {
+      "symbol": "LTM",
+      "kind": "stock",
+      "lotSize": 150,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15778562
+    },
+    {
+      "symbol": "LUPIN",
+      "kind": "stock",
+      "lotSize": 425,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15778818
+    },
+    {
+      "symbol": "M&M",
+      "kind": "stock",
+      "lotSize": 200,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15779074
+    },
+    {
+      "symbol": "MAHABANK",
+      "kind": "stock",
+      "lotSize": 6500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15779842
+    },
+    {
+      "symbol": "MANAPPURAM",
+      "kind": "stock",
+      "lotSize": 3000,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15780098
+    },
+    {
+      "symbol": "MANKIND",
+      "kind": "stock",
+      "lotSize": 250,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15780354
+    },
+    {
+      "symbol": "MARICO",
+      "kind": "stock",
+      "lotSize": 1200,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15780610
+    },
+    {
+      "symbol": "MARUTI",
+      "kind": "stock",
+      "lotSize": 50,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15780866
+    },
+    {
+      "symbol": "MAXHEALTH",
+      "kind": "stock",
+      "lotSize": 525,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15781122
+    },
+    {
+      "symbol": "MAZDOCK",
+      "kind": "stock",
+      "lotSize": 225,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15781890
+    },
+    {
+      "symbol": "MCX",
+      "kind": "stock",
+      "lotSize": 225,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15782146
+    },
+    {
+      "symbol": "MFSL",
+      "kind": "stock",
+      "lotSize": 400,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15782402
+    },
+    {
+      "symbol": "MIDCPNIFTY",
+      "kind": "index",
+      "lotSize": 120,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15736322
+    },
+    {
+      "symbol": "MOTHERSON",
+      "kind": "stock",
+      "lotSize": 6150,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15782658
+    },
+    {
+      "symbol": "MOTILALOFS",
+      "kind": "stock",
+      "lotSize": 775,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15782914
+    },
+    {
+      "symbol": "MPHASIS",
+      "kind": "stock",
+      "lotSize": 275,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15783170
+    },
+    {
+      "symbol": "MUTHOOTFIN",
+      "kind": "stock",
+      "lotSize": 275,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15783426
+    },
+    {
+      "symbol": "NAM-INDIA",
+      "kind": "stock",
+      "lotSize": 625,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15783682
+    },
+    {
+      "symbol": "NATIONALUM",
+      "kind": "stock",
+      "lotSize": 1875,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15783938
+    },
+    {
+      "symbol": "NAUKRI",
+      "kind": "stock",
+      "lotSize": 550,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15784194
+    },
+    {
+      "symbol": "NAVINFLUOR",
+      "kind": "stock",
+      "lotSize": 75,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 14099458
+    },
+    {
+      "symbol": "NBCC",
+      "kind": "stock",
+      "lotSize": 6500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15784450
+    },
+    {
+      "symbol": "NESTLEIND",
+      "kind": "stock",
+      "lotSize": 500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15785218
+    },
+    {
+      "symbol": "NHPC",
+      "kind": "stock",
+      "lotSize": 6950,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15785474
+    },
+    {
+      "symbol": "NIFTY",
+      "kind": "index",
+      "lotSize": 65,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15736578
+    },
+    {
+      "symbol": "NIFTYFPI",
+      "kind": "stock",
+      "lotSize": 1100,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15736834
+    },
+    {
+      "symbol": "NMDC",
+      "kind": "stock",
+      "lotSize": 6750,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15785730
+    },
+    {
+      "symbol": "NTPC",
+      "kind": "stock",
+      "lotSize": 1500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15785986
+    },
+    {
+      "symbol": "NYKAA",
+      "kind": "stock",
+      "lotSize": 3125,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15786242
+    },
+    {
+      "symbol": "OBEROIRLTY",
+      "kind": "stock",
+      "lotSize": 350,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15786498
+    },
+    {
+      "symbol": "OFSS",
+      "kind": "stock",
+      "lotSize": 50,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15786754
+    },
+    {
+      "symbol": "OIL",
+      "kind": "stock",
+      "lotSize": 1400,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15787010
+    },
+    {
+      "symbol": "ONGC",
+      "kind": "stock",
+      "lotSize": 2250,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15787266
+    },
+    {
+      "symbol": "PAGEIND",
+      "kind": "stock",
+      "lotSize": 20,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15788034
+    },
+    {
+      "symbol": "PATANJALI",
+      "kind": "stock",
+      "lotSize": 1075,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15788290
+    },
+    {
+      "symbol": "PAYTM",
+      "kind": "stock",
+      "lotSize": 725,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15788546
+    },
+    {
+      "symbol": "PERSISTENT",
+      "kind": "stock",
+      "lotSize": 125,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15788802
+    },
+    {
+      "symbol": "PETRONET",
+      "kind": "stock",
+      "lotSize": 1900,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15789058
+    },
+    {
+      "symbol": "PFC",
+      "kind": "stock",
+      "lotSize": 1300,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15789314
+    },
+    {
+      "symbol": "PGEL",
+      "kind": "stock",
+      "lotSize": 950,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15789570
+    },
+    {
+      "symbol": "PHOENIXLTD",
+      "kind": "stock",
+      "lotSize": 350,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15789826
+    },
+    {
+      "symbol": "PIDILITIND",
+      "kind": "stock",
+      "lotSize": 500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15790082
+    },
+    {
+      "symbol": "PIIND",
+      "kind": "stock",
+      "lotSize": 175,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15790338
+    },
+    {
+      "symbol": "PNB",
+      "kind": "stock",
+      "lotSize": 8000,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15790594
+    },
+    {
+      "symbol": "PNBHOUSING",
+      "kind": "stock",
+      "lotSize": 650,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15790850
+    },
+    {
+      "symbol": "POLICYBZR",
+      "kind": "stock",
+      "lotSize": 350,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15791618
+    },
+    {
+      "symbol": "POLYCAB",
+      "kind": "stock",
+      "lotSize": 125,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15792386
+    },
+    {
+      "symbol": "POWERGRID",
+      "kind": "stock",
+      "lotSize": 1900,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15792642
+    },
+    {
+      "symbol": "POWERINDIA",
+      "kind": "stock",
+      "lotSize": 25,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15792898
+    },
+    {
+      "symbol": "PREMIERENE",
+      "kind": "stock",
+      "lotSize": 650,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15793154
+    },
+    {
+      "symbol": "PRESTIGE",
+      "kind": "stock",
+      "lotSize": 450,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15793410
+    },
+    {
+      "symbol": "RADICO",
+      "kind": "stock",
+      "lotSize": 150,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15793666
+    },
+    {
+      "symbol": "RBLBANK",
+      "kind": "stock",
+      "lotSize": 3175,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15793922
+    },
+    {
+      "symbol": "RECLTD",
+      "kind": "stock",
+      "lotSize": 1575,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15794178
+    },
+    {
+      "symbol": "RELIANCE",
+      "kind": "stock",
+      "lotSize": 500,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15794434
+    },
+    {
+      "symbol": "RVNL",
+      "kind": "stock",
+      "lotSize": 1925,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15794690
+    },
+    {
+      "symbol": "SAGILITY",
+      "kind": "stock",
+      "lotSize": 12000,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15795458
+    },
+    {
+      "symbol": "SAIL",
+      "kind": "stock",
+      "lotSize": 4700,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15795714
+    },
+    {
+      "symbol": "SBICARD",
+      "kind": "stock",
+      "lotSize": 800,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15796226
+    },
+    {
+      "symbol": "SBILIFE",
+      "kind": "stock",
+      "lotSize": 375,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15796482
+    },
+    {
+      "symbol": "SBIN",
+      "kind": "stock",
+      "lotSize": 750,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15796738
+    },
+    {
+      "symbol": "SHREECEM",
+      "kind": "stock",
+      "lotSize": 25,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15796994
+    },
+    {
+      "symbol": "SHRIRAMFIN",
+      "kind": "stock",
+      "lotSize": 825,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15797250
+    },
+    {
+      "symbol": "SIEMENS",
+      "kind": "stock",
+      "lotSize": 175,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15797506
+    },
+    {
+      "symbol": "SOLARINDS",
+      "kind": "stock",
+      "lotSize": 25,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15797762
+    },
+    {
+      "symbol": "SONACOMS",
+      "kind": "stock",
+      "lotSize": 1225,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15798018
+    },
+    {
+      "symbol": "SRF",
+      "kind": "stock",
+      "lotSize": 200,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15798274
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "kind": "stock",
+      "lotSize": 350,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15798530
+    },
+    {
+      "symbol": "SUPREMEIND",
+      "kind": "stock",
+      "lotSize": 175,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15798786
+    },
+    {
+      "symbol": "SUZLON",
+      "kind": "stock",
+      "lotSize": 12700,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15799042
+    },
+    {
+      "symbol": "SWIGGY",
+      "kind": "stock",
+      "lotSize": 1825,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15799298
+    },
+    {
+      "symbol": "SYRMA",
+      "kind": "stock",
+      "lotSize": 325,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 14116866
+    },
+    {
+      "symbol": "TATACONSUM",
+      "kind": "stock",
+      "lotSize": 550,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15799810
+    },
+    {
+      "symbol": "TATAELXSI",
+      "kind": "stock",
+      "lotSize": 125,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15800578
+    },
+    {
+      "symbol": "TATAPOWER",
+      "kind": "stock",
+      "lotSize": 1450,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15800834
+    },
+    {
+      "symbol": "TATASTEEL",
+      "kind": "stock",
+      "lotSize": 2750,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15801090
+    },
+    {
+      "symbol": "TCS",
+      "kind": "stock",
+      "lotSize": 225,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15801346
+    },
+    {
+      "symbol": "TECHM",
+      "kind": "stock",
+      "lotSize": 600,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15801602
+    },
+    {
+      "symbol": "TIINDIA",
+      "kind": "stock",
+      "lotSize": 200,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15802370
+    },
+    {
+      "symbol": "TITAN",
+      "kind": "stock",
+      "lotSize": 175,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15802626
+    },
+    {
+      "symbol": "TMPV",
+      "kind": "stock",
+      "lotSize": 1600,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15802882
+    },
+    {
+      "symbol": "TORNTPHARM",
+      "kind": "stock",
+      "lotSize": 125,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15803138
+    },
+    {
+      "symbol": "TRENT",
+      "kind": "stock",
+      "lotSize": 225,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15803394
+    },
+    {
+      "symbol": "TVSMOTOR",
+      "kind": "stock",
+      "lotSize": 175,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15804162
+    },
+    {
+      "symbol": "UJJIVANSFB",
+      "kind": "stock",
+      "lotSize": 8000,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15140098
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "kind": "stock",
+      "lotSize": 50,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15804418
+    },
+    {
+      "symbol": "UNIONBANK",
+      "kind": "stock",
+      "lotSize": 4425,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15804674
+    },
+    {
+      "symbol": "UNITDSPR",
+      "kind": "stock",
+      "lotSize": 400,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15804930
+    },
+    {
+      "symbol": "UNOMINDA",
+      "kind": "stock",
+      "lotSize": 550,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15805186
+    },
+    {
+      "symbol": "UPL",
+      "kind": "stock",
+      "lotSize": 1355,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15805442
+    },
+    {
+      "symbol": "VBL",
+      "kind": "stock",
+      "lotSize": 1275,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15805698
+    },
+    {
+      "symbol": "VEDL",
+      "kind": "stock",
+      "lotSize": 1150,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15805954
+    },
+    {
+      "symbol": "VMM",
+      "kind": "stock",
+      "lotSize": 4850,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15806210
+    },
+    {
+      "symbol": "VOLTAS",
+      "kind": "stock",
+      "lotSize": 375,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15806466
+    },
+    {
+      "symbol": "WAAREEENER",
+      "kind": "stock",
+      "lotSize": 175,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15806722
+    },
+    {
+      "symbol": "WIPRO",
+      "kind": "stock",
+      "lotSize": 3000,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15806978
+    },
+    {
+      "symbol": "YESBANK",
+      "kind": "stock",
+      "lotSize": 31100,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15808002
+    },
+    {
+      "symbol": "ZYDUSLIFE",
+      "kind": "stock",
+      "lotSize": 450,
+      "lotExpiry": "2026-11-23",
+      "exchange": "NSE",
+      "instrumentToken": 15808258
+    }
+  ]
+}
